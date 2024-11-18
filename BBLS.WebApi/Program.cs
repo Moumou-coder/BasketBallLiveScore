@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+//services from different others projects 
 builder.Services
     .AddApplication()
     .AddInfrastructure()
