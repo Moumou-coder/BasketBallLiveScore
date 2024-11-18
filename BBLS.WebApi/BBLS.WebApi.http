@@ -1,0 +1,6 @@
+@BBLS.WebApi_HostAddress = http://localhost:5127
+
+GET {{BBLS.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
